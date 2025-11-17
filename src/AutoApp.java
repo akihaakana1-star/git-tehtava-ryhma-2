@@ -21,6 +21,10 @@ public class AutoApp {
         auto2.tankkaa(50);
         auto2.kiihdyta();
         auto2.naytaTiedot();
+
+        //Akin auto-olio
+        Auto auto3 = new Auto("Ford", "Mustang", 30);
+        auto3.naytaTiedot();
     }
 }
 
