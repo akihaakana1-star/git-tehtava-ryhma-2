@@ -23,8 +23,9 @@ public class AutoApp {
         auto2.naytaTiedot();
 
         //Akin auto-olio
-        Auto auto3 = new Auto("Ford", "Mustang", 30);
+        Auto auto3 = new Auto("Ford", "Mustang", 40);
         auto3.naytaTiedot();
+        auto3.tankkaa(20);
     }
 }
 
